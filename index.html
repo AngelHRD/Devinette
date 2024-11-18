@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEU DEVINETTE</title>
+    <script src="/J-6/Devinette/main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>JEU DEVINETTE</h1>
+      <p class="instruction">Devinez un nombre entre 1 et 100</p>
+      <input id="userGuess" type="number" aria-label="nombre" />
+      <button onclick="guesser()" id="btnSubmit" type="submit">Soumettre</button>
+      <p id="results" class="message"></p>
+      <p id="try" class="message2">Nombres d'essais restant : 10</p>
+    </div>
+  </body>
+</html>
